@@ -1,15 +1,17 @@
 /* ==UserStyle==
-@name			annie-chat
-@namespace		dcmaradiaga
-@version		0.0.1
-@description	usercss for messenger.com annoyances in crowded chats
-@author			dcmaradiaga
-@license		CC-BY-SA-4.0
-@homepageURL	https://github.com/dcmaradiaga/dotfiles
-@supportURL		https://github.com/dcmaradiaga/dotfiles/issues
-@updateURL		https://raw.githubusercontent.com/dcmaradiaga/dotfiles/anniechat.user.css
-@preprocessor	default
+@name           annie-chat
+@namespace      dcmaradiaga
+@version        0.0.1
+@description    usercss for messenger.com annoyances in crowded chats
+@author         dcmaradiaga
+@license        CC-BY-SA-4.0
+@homepageURL    https://github.com/dcmaradiaga/dotfiles
+@supportURL     https://github.com/dcmaradiaga/dotfiles/issues
+@updateURL      https://raw.githubusercontent.com/dcmaradiaga/dotfiles/anniechat.user.css
+@preprocessor   default
 ==/UserStyle== */
+
+@-moz-document domain("https://www.messenger.com/t/1635159389835982") {
 
 /* reduce sticker spamming */
 div[aria-label*="sticker"]{
@@ -39,4 +41,5 @@ div._8rnv.preview {
     height:		0;
     padding: 	0;
     bottom: 	0;	
+}
 }
