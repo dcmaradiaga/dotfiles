@@ -1,0 +1,19 @@
+[Unit]
+Description=start and stop the minecraft-server on boot
+
+[Service]
+# assuming user is mcs, rename if needed
+WorkingDirectory=/home/mcs
+User=mcs
+Group=mcs
+Restart=on-failure
+RestartSec=20 5
+Type=forking
+# update -Xms & -Xmx values depending on your system resources
+# -Xms.. is initial memory allocation
+# -Xmx.. is maximum memory allocation
+# https://docs.oracle.com/cd/E13150_01/jrockit_jvm/jrockit/jrdocs/refman/optionX.html#wp999527
+ExecStart=/usr/bin/screen -dmS minecraft /usr/bin/java -Xms1G -Xmx8G -jar server.jar nogui
+
+[Install]
+WantedBy=multi-user.target
