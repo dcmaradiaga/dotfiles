@@ -1,0 +1,42 @@
+/* ==UserStyle==
+@name           dark-night-fixes
+@namespace      dcmaradiaga
+@version        0.0.1
+@description    changes and additions to https://github.com/cicerakes/DarkNight-FBMessenger/
+@author         dcmaradiaga
+@license        CC-BY-SA-4.0
+@homepageURL    https://github.com/dcmaradiaga/dotfiles
+@supportURL     https://github.com/dcmaradiaga/dotfiles/issues
+@updateURL      https://raw.githubusercontent.com/dcmaradiaga/dotfiles/dark-night-fixes.user.css
+@preprocessor   default
+==/UserStyle== */
+
+@-moz-document domain("messenger.com") {
+
+/* search highlights color fix */
+.__in {
+    background-color: #46a;
+    box-shadow: 2px 0 #46a, -2px 0 #46a;
+}
+
+
+/* slightly darker text area*/
+._7kpk {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+/* make the enlaged sidebar smaller */
+._1enh._7q1s {
+    max-width: 250px;
+    min-width: 0px;
+}
+
+/* remove yellow from code blocks */
+._wu0 {
+    background: rgba(0, 0, 0, .6);
+    border: 1px solid #333;
+}
+
+/* "fix" absurdly long images and not being able to reply to them */
+._4tsk._52mr._1byr {max-width: 300px !important;}
+}
