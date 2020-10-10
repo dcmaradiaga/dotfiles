@@ -11,7 +11,7 @@
 @preprocessor   default
 ==/UserStyle== */
 
-@-moz-document url-prefix("messenger.com/t/1635159389835982") {
+@-moz-document url-prefix("www.messenger.com/t/1635159389835982") {
 
 /* reduce sticker spamming */
 div[aria-label*="sticker"]{
