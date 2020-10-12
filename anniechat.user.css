@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           annie-chat
 @namespace      dcmaradiaga
-@version        0.0.1
+@version        0.1.0
 @description    usercss for messenger.com annoyances in crowded chats
 @author         dcmaradiaga
 @license        CC-BY-SA-4.0
@@ -25,7 +25,7 @@ div[aria-label*="sticker"]{
 ._1nc7:not(:last-of-type) ._5z-5,
 ._1nc6:not(:last-of-type) ._5z-5,
 ._3erg:not(:last-of-type) ._5z-5 {
-	margin-bottom: 0px;
+	margin-bottom: 1px;
 }
 ._5m3a {
     margin: 0 0 0 0;
@@ -33,8 +33,8 @@ div[aria-label*="sticker"]{
 
 
 /* remove reacts */
-._5z-5._3058._ui9._hh7._6ybn._s1-._52mr._3oh- {
-	margin-bottom: 1px; /* i think it looks more consistent */
+._5z-5._3058._ui9._hh7._6ybn._s1-._52mr._3oh-, ._q4a {
+	margin-bottom: 1px; /* padding for reacts */
 }
 div._8rnv.preview {
     display: 	none;
