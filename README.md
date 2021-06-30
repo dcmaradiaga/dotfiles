@@ -1,9 +1,14 @@
 # dotfiles and misc
 
-## annie-chat
+## no-gif-fb
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/dcmaradiaga/dotfiles/master/no-gif-fb.user.css)
+
+removes gif from annie chat
+
+## annie-chat -- broken
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/dcmaradiaga/dotfiles/master/anniechat.user.css)
 
-## dark-night-fixes
+## dark-night-fixes -- broken
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/dcmaradiaga/dotfiles/master/dark-night-fixes.user.css)
 
 assumes that [DarkNight-FBMessenger](https://github.com/cicerakes/DarkNight-FBMessenger) is installed. at the moment, this makes
