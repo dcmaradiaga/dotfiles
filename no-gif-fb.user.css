@@ -1,0 +1,19 @@
+/* ==UserStyle==
+@name           no-gif-fb
+@namespace      dcmaradiaga
+@version        0.0.1
+@description    removes gifs
+@author         dcmaradiaga
+@license        CC-BY-SA-4.0
+@homepageURL    https://github.com/dcmaradiaga/dotfiles
+@supportURL     https://github.com/dcmaradiaga/dotfiles/issues
+@updateURL      https://raw.githubusercontent.com/dcmaradiaga/dotfiles/master/no-gif-fb.user.css
+@preprocessor   default
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.messenger.com/t/1635159389835982") {
+.oajrlxb2.gs1a9yip.g5ia77u1.mtkw9kbi.tlpljxtp.qensuy8j.ppp5ayq2.goun2846.ccm00jje.s44p3ltw.mk2mc5f4.rt8b4zig.n8ej3o3l.agehan2d.sk4xxmp2.rq0escxv.nhd2j8a9.q9uorilb.mg4g778l.btwxx1t3.pfnyh3mw.p7hjln8o.kvgmc6g5.cxmmr5t8.oygrvhab.hcukyx3x.tgvbjcpo.hpfvmrgz.jb3vyjys.rz4wbd8a.qt6c0cv9.a8nywdso.l9j0dhe7.i1ao9s8h.esuyzwwr.f1sip0of.du4w35lb.lzcic4wl.abiwlrkh.p8dawk7l.e72ty7fz.mrjvor2e.qlfml3jp.jinzq4gt {
+  display:none;
+}
+}
+
