@@ -5,8 +5,12 @@
 move raw image files `.RAF` from fuji camera dump into `[currentdirectory]\RAF\` and create directory if it doesn't exist
 
 ```powershell
-Invoke-WebRequest -Method Get -UseBasicParsing -uri https://raw.githubusercontent.com/dcmaradiaga/dotfiles/master/moveraf.bat -outfile moveraf.bat
+Invoke-WebRequest -UseBasicParsing -Method Get `
+ -uri https://raw.githubusercontent.com/dcmaradiaga/dotfiles/master/moveraf.bat `
+ -outfile moveraf.bat
 ```
+
+then **double-click** moveraf.bat or run below
 
 ```powershell
 .\moveraf.bat
